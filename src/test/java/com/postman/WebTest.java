@@ -14,7 +14,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class RegistrationFormTest {
+public class WebTest {
 
     @ValueSource(strings = {"supertest", "@gmail", "@gmail.com"})
     @ParameterizedTest(name = "Registration with email {0}")
